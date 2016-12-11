@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<script>
+var _hidediv = null;
+function showdiv(id) {
+    if(_hidediv)
+        _hidediv();
+    var div = document.getElementById(id);
+    div.style.display = 'block';
+    _hidediv = function () { div.style.display = 'none'; };
+}
+</script>
+  <title>Exercice 2</title>
+</head>
+<body>
+<a  onclick="showdiv('texte'); " href="#">Afficher</a> 
+<a  onclick="showdiv('2ieme'); " href="#">Masquer</a> 
+  <div id="texte"style="display: none;">
+    <p>Joseph Dacre Carlyle (Carlisle, 4 juin 1758 - Newcastle upon Tyne, 12 avril 1804) est un orientaliste anglais.Après ses études à l'université de Cambridge, il y devint professeur d'arabe. En 1799, il fut attaché par le gouvernement britannique à l'ambassade de Lord Elgin dans l'Empire ottoman. Il était chargé d'explorer les bibliothèques de la région (principalement celle du Sérail) pour y découvrir (et y acquérir) des manuscrits inédits de textes antiques. Il se rendit aussi en Égypte, en Terre sainte et au mont Athos. Sa mission fut, de son point de vue, un échec. Il acheta quelques centaines d'ouvrages, principalement dans les bazars de Constantinople, mais aucun ne contenait de texte inédit. Cependant, la façon dont certains manuscrits avaient été acquis, principalement ceux du patriarche de Jérusalem Anthème Ier, ainsi que la querelle entamée sur la plaine de Troie entre Carlyle et un autre professeur de Cambridge, Edward Daniel Clarke, allaient être utilisées, après la mort de Carlyle, contre Lord Elgin, dans les controverses autour de l'acquisition des « marbres d'Elgin ».De retour en Grande-Bretagne à l'automne 1801, Joseph Dacre Carlyle entama une traduction en arabe de la Bible. Sa mort en avril 1804 coupa court à ce travail.</p>
+  </div>
+<div id="2ieme"   style="display: none;"></div>
+</body>
+</html>
+
+
+<!--
+
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<script>
+var _hidediv = null;
+function showdiv(id) {
+    if(_hidediv)
+        _hidediv();
+    var div = document.getElementById(id);
+    div.style.display = 'block';
+    _hidediv = function () { div.style.display = 'none'; };
+}
+</script>
+</head>
+
+<body>
+<a  onclick="showdiv('1er'); " href="#">Link1</a> 
+<a  onclick="showdiv('2ieme'); " href="#">Link2</a> 
+<a  onclick="showdiv('3ieme'); " href="#">Link3</a> 
+<a  onclick="showdiv('4ieme'); " href="#">Link4</a>
+<a  onclick="showdiv('5ieme'); " href="#">Link5</a>
+
+<div id="1er"     style="display: none;">1er texte</div>
+<div id="2ieme"   style="display: none;">2 ieme text</div>
+<div id="3ieme"   style="display: none;">3 ieme text</div>
+<div id="4ieme"   style="display: none;">4 ieme text</div>
+<div id="5ieme"   style="display: none;">5 ieme text</div>
+</body>
+</html>
