@@ -31,8 +31,8 @@ $ git branch -d <branch_name>  idem local
     -v, --verbose         être plus verbeux  
     -q, --quiet           être plus silencieux  
     --abort               abandonner la fusion en cours  
-    --allow-unrelated-histories
-                          permettre la fusion d'historiques sans rapport
+    --allow-unrelated-histories
+                          permettre la fusion d'historiques sans rapport
     --progress            forcer l'affichage de l'état d'avancement  
     -S, --gpg-sign[=<id-clé>]  
                           signer la validation avec GPG
