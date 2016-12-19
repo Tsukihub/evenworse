@@ -1,0 +1,31 @@
+article/*hum*/
+{
+margin: auto;
+padding: 50px;
+}
+
+section/*flexu!!!!*/
+{
+display: flex;
+background-color: #80C389;/*tu sais pas ce mémoire quelle est cette couleur?*/
+}
+
+#small/*bidouillage dégeu de la taille des cases de la troisième colonne de flex*/
+{
+height: 7.5%;
+}
+
+.normal
+{
+height: 41%;
+}
+
+#blue
+{
+background-color: #C8BAF5;/*si tes pas trop con tu peux trouver quelle est cette couleur*/
+}
+
+header, footer
+{
+background-color: #FEF3B2;
+}
