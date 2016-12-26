@@ -55,4 +55,8 @@ if (days) returns true si days n'est pas vide
 variable date 
 var date = new Date(); donne à date un format de date
 split : on s'arrête caractère défini dans split
-
+when forked
+git remote add upstream https://github.com/octocat/Spoon-Knife.git
+# Assigne le dépôt original à un remote nommé "upstream"
+git fetch upstream
+# Rapatrie les modifications non présentes dans votre dépôt local, sans modifier vos fichier
